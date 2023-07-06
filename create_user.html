@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create User</title>
+  <!--
+  <link rel="stylesheet" type="text/css" href="index.css"> 
+-->
+  <link rel="stylesheet" type="text/css" href="create_user.css">
+
+
+</head>
+<body>
+  <div class="header">
+    <h1>Search, Click, Scrape</h1>
+    <a href="kohls.html">Kohls</a>
+    <a href="nike.html">Nike</a>
+    <a href="help.html">Help</a>
+  </div>
+  <div class="login">
+    <form action="create_user.php" method="post">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+      <input type="date" name="birthdate" required>
+      <input type="submit" name="create" value="Create User">
+    </form>
+  </div>
+</body>
+</html>
